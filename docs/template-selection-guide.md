@@ -60,3 +60,15 @@ Add lifecycle states, stale memory review, category deletion, permissioning, and
 ### Enterprise or regulated environment
 
 Add workspace ownership, audit trails, retention constraints, permission reviews, and documented risk classification.
+
+## Select by memory scope
+
+| Scope | Design priority | Useful templates |
+|---|---|---|
+| Session | Prevent accidental persistence | [Remember for This Chat Only](../templates/memory-scope-permissions/remember-for-this-chat-only.md) |
+| Personal | Give direct user control | [Profile-Level Memory Manager](../templates/memory-editing/profile-level-memory-manager.md) |
+| Project | Preserve source and lifecycle | [Source-Linked Memory Card](../templates/memory-inspection/source-linked-memory-card.md) |
+| Workspace | Manage permissions and conflicts | [Remember Across Workspace](../templates/memory-scope-permissions/remember-across-workspace.md) |
+| Organization | Govern review and policy | [Memory Expiry Control](../templates/memory-forgetting/memory-expiry-control.md) |
+
+When memory crosses scope boundaries, show the boundary explicitly and provide a way to narrow it.
