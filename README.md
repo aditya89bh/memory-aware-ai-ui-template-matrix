@@ -2,27 +2,31 @@
 
 A design reference for creating inspectable, editable, correctable, and forgettable memory experiences in AI products.
 
-## Why this repository exists
+## Understand this repository in under 60 seconds
 
-AI memory is becoming a core part of product experience. Applications increasingly remember user preferences, ongoing projects, prior conversations, behavioral patterns, and context gathered across sessions. Yet most memory experiences are still treated as backend features: hidden, automatic, difficult to inspect, and hard to correct.
+Modern AI products remember preferences, projects, decisions, behavior, and context. If that memory is hidden, users cannot understand, correct, or forget what shapes their experience.
 
-This repository takes a different position: **memory is a first-class design material**.
+This repository treats memory as a first-class design material. It gives teams templates, examples, rubrics, worksheets, and review tools for designing memory that is transparent, controllable, and trustworthy.
 
-Memory should be visible when it matters, controllable when it affects outcomes, and reversible when it is wrong. People should be able to understand what a system remembers, why it matters, how it is used, and how to change or remove it. Product teams need reusable design patterns for that work.
+This is a design repository, not a frontend component library.
 
-## What this repository provides
+## Quick start
 
-This is a **template matrix**, not a frontend component library. It focuses on product patterns, interaction models, decision points, and documentation that help teams design trustworthy memory experiences before choosing an implementation stack.
+1. Read [How to Use This Repository in 30 Minutes](docs/how-to-use-in-30-minutes.md).
+2. Pick one product flow where memory affects the user experience.
+3. Audit it with the [Memory Flow Audit Worksheet](worksheets/memory-flow-audit.md).
+4. Classify risk with the [Memory Risk Rubric](docs/memory-risk-rubric.md).
+5. Choose templates with the [Template Selection Guide](docs/template-selection-guide.md).
+6. Score the design with the [Design Review Scorecard](docs/design-review-scorecard.md).
 
 ## Start here
 
 - [Vision](docs/vision.md)
 - [Taxonomy](docs/taxonomy.md)
 - [Memory Design Principles](docs/memory-design-principles.md)
-- [Template Schema](templates/template-schema.md)
 - [Template Matrix Index](templates/matrix-index.md)
-- [Review Checklist](docs/review-checklist.md)
-- [Scenario Map](examples/scenario-map.md)
+- [Template Selection Guide](docs/template-selection-guide.md)
+- [Use Cases by Industry](docs/use-cases-by-industry.md)
 
 ## Template matrix
 
@@ -45,87 +49,3 @@ This is a **template matrix**, not a frontend component library. It focuses on p
 - [Robotics Operator Flow](examples/robotics-operator-flow.md)
 - [Research Assistant Flow](examples/research-assistant-flow.md)
 - [Creative Tool Flow](examples/creative-tool-flow.md)
-
-## Review tools
-
-- [Memory Risk Rubric](docs/memory-risk-rubric.md)
-- [Design Review Scorecard](docs/design-review-scorecard.md)
-- [Memory Lifecycle Rubric](docs/memory-lifecycle-rubric.md)
-- [Product Team Workshop Guide](docs/product-team-workshop-guide.md)
-- [Stakeholder Review Questions](docs/stakeholder-review-questions.md)
-- [Pattern Combinations](docs/pattern-combinations.md)
-- [Anti-Patterns](docs/anti-patterns.md)
-
-## Template families
-
-- [Memory Capture](templates/memory-capture/README.md)
-- [Memory Inspection](templates/memory-inspection/README.md)
-- [Memory Editing](templates/memory-editing/README.md)
-- [Memory Correction](templates/memory-correction/README.md)
-- [Memory Forgetting](templates/memory-forgetting/README.md)
-- [Scope and Permissions](templates/memory-scope-permissions/README.md)
-- [Provenance and Confidence](templates/provenance-confidence/README.md)
-
-## Who it is for
-
-This repository is designed for product designers, UX researchers, AI application builders, AI consultants, product managers, and researchers exploring human-centered AI memory.
-
-## Strategic framing
-
-A memory-aware product does not simply store more context. It gives people meaningful control over the context that shapes future experiences.
-
-Good memory design answers questions like:
-
-- What should the product remember?
-- When should memory be suggested rather than silently saved?
-- How can users inspect what memory contains?
-- How can incorrect memories be fixed?
-- How can sensitive or outdated memories be forgotten?
-- How should uncertainty, source, and confidence be communicated?
-- How should memory behave across individuals, teams, and shared workspaces?
-
-## Repository structure
-
-```text
-docs/
-  vision.md
-  taxonomy.md
-  memory-design-principles.md
-  review-checklist.md
-  memory-risk-rubric.md
-  design-review-scorecard.md
-  memory-lifecycle-rubric.md
-  product-team-workshop-guide.md
-  stakeholder-review-questions.md
-  pattern-combinations.md
-  anti-patterns.md
-
-templates/
-  template-schema.md
-  matrix-index.md
-  memory-capture/
-  memory-inspection/
-  memory-editing/
-  memory-correction/
-  memory-forgetting/
-  memory-scope-permissions/
-  provenance-confidence/
-
-examples/
-  scenario-map.md
-  productivity-assistant-flow.md
-  team-collaboration-flow.md
-  customer-support-flow.md
-  education-tutor-flow.md
-  robotics-operator-flow.md
-  research-assistant-flow.md
-  creative-tool-flow.md
-```
-
-## Design stance
-
-This repository favors transparency over hidden automation, correction over silent persistence, consent over surprise, progressive disclosure over information overload, and practical product patterns over abstract principles alone.
-
-## License
-
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
