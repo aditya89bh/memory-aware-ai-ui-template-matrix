@@ -86,3 +86,31 @@ Shared memory can make one person's preference feel like a team rule. It can als
 - Who owns review of shared memory?
 - Can personal and team memory be distinguished?
 - Does archived project memory stop influencing active work?
+
+## Customer support
+
+### Common memory objects
+
+- Customer preferences
+- Account facts
+- Support history summaries
+- Case-specific context
+- Communication constraints
+
+### User-facing risks
+
+Wrong support memory can create repeated frustration, privacy mistakes, or inaccurate account handling. Support teams need correction controls during live work.
+
+### Useful templates
+
+- [Memory Drawer](../templates/memory-inspection/memory-drawer.md)
+- [Inline Memory Edit](../templates/memory-editing/inline-memory-edit.md)
+- [Correction Feedback Receipt](../templates/memory-correction/correction-feedback-receipt.md)
+- [Forget Single Memory](../templates/memory-forgetting/forget-single-memory.md)
+
+### Review questions
+
+- Can representatives correct customer memory from the support thread?
+- Are account facts source-linked?
+- Is sensitive case context scoped narrowly?
+- Does forgetting explain whether case history remains?
