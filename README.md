@@ -14,29 +14,61 @@ Memory should be visible when it matters, controllable when it affects outcomes,
 
 This is a **template matrix**, not a frontend component library. It focuses on product patterns, interaction models, decision points, and documentation that help teams design trustworthy memory experiences before choosing an implementation stack.
 
-The repository will organize templates across memory design needs such as:
+## Start here
 
-- Memory capture and consent
-- Memory inspection and review
-- Memory editing and correction
-- Memory deletion and forgetting
-- Confidence, provenance, and source visibility
-- Scoped memory for people, projects, teams, and organizations
-- Conflict resolution when memories disagree
-- Memory lifecycle and expiration
-- User education and expectation-setting
-- Research and evaluation flows for memory-heavy products
+- [Vision](docs/vision.md)
+- [Taxonomy](docs/taxonomy.md)
+- [Memory Design Principles](docs/memory-design-principles.md)
+- [Template Schema](templates/template-schema.md)
+- [Template Matrix Index](templates/matrix-index.md)
+- [Review Checklist](docs/review-checklist.md)
+- [Scenario Map](examples/scenario-map.md)
+
+## Visual matrix
+
+| Memory design job | Template family | Primary trust question |
+|---|---|---|
+| Decide what gets remembered | [Memory Capture](templates/memory-capture/README.md) | Did the user understand and approve memory creation? |
+| See what is remembered | [Memory Inspection](templates/memory-inspection/README.md) | Can the user inspect relevant memory at the right moment? |
+| Change stored memory | [Memory Editing](templates/memory-editing/README.md) | Can the user maintain memory without friction? |
+| Fix wrong memory | [Memory Correction](templates/memory-correction/README.md) | Can the user repair mistakes and see what changed? |
+| Remove memory | [Memory Forgetting](templates/memory-forgetting/README.md) | Can the user reverse memory with clear consequences? |
+| Control where memory applies | [Scope and Permissions](templates/memory-scope-permissions/README.md) | Are boundaries between chat, personal, project, and workspace memory clear? |
+| Understand memory origin | [Provenance and Confidence](templates/provenance-confidence/README.md) | Can the user judge where memory came from and how reliable it is? |
+
+## Template families
+
+- [Memory Capture](templates/memory-capture/README.md)
+  - [Explicit Memory Save Prompt](templates/memory-capture/explicit-memory-save-prompt.md)
+  - [Inferred Preference Confirmation](templates/memory-capture/inferred-preference-confirmation.md)
+  - [Contextual Memory Boundary](templates/memory-capture/contextual-memory-boundary.md)
+- [Memory Inspection](templates/memory-inspection/README.md)
+  - [Memory Drawer](templates/memory-inspection/memory-drawer.md)
+  - [Remembered Facts Timeline](templates/memory-inspection/remembered-facts-timeline.md)
+  - [Source-Linked Memory Card](templates/memory-inspection/source-linked-memory-card.md)
+- [Memory Editing](templates/memory-editing/README.md)
+  - [Inline Memory Edit](templates/memory-editing/inline-memory-edit.md)
+  - [Profile-Level Memory Manager](templates/memory-editing/profile-level-memory-manager.md)
+  - [Temporary Session Override](templates/memory-editing/temporary-session-override.md)
+- [Memory Correction](templates/memory-correction/README.md)
+  - [That's Wrong Correction Flow](templates/memory-correction/thats-wrong-correction-flow.md)
+  - [Conflicting Memory Resolver](templates/memory-correction/conflicting-memory-resolver.md)
+  - [Correction Feedback Receipt](templates/memory-correction/correction-feedback-receipt.md)
+- [Memory Forgetting](templates/memory-forgetting/README.md)
+  - [Forget Single Memory](templates/memory-forgetting/forget-single-memory.md)
+  - [Forget by Category](templates/memory-forgetting/forget-by-category.md)
+  - [Memory Expiry Control](templates/memory-forgetting/memory-expiry-control.md)
+- [Scope and Permissions](templates/memory-scope-permissions/README.md)
+  - [Remember for This Chat Only](templates/memory-scope-permissions/remember-for-this-chat-only.md)
+  - [Remember Across Workspace](templates/memory-scope-permissions/remember-across-workspace.md)
+  - [Sensitive Memory Consent Gate](templates/memory-scope-permissions/sensitive-memory-consent-gate.md)
+- [Provenance and Confidence](templates/provenance-confidence/README.md)
+  - [Why Remembered This](templates/provenance-confidence/why-remembered-this.md)
+  - [Confidence and Source Indicator](templates/provenance-confidence/confidence-and-source-indicator.md)
 
 ## Who it is for
 
-This repository is designed for:
-
-- Product designers creating AI product flows
-- UX researchers studying trust, control, and transparency
-- AI application builders designing memory-backed products
-- AI consultants advising teams on user-facing memory systems
-- Product managers defining memory behavior and governance
-- Researchers exploring human-centered AI memory
+This repository is designed for product designers, UX researchers, AI application builders, AI consultants, product managers, and researchers exploring human-centered AI memory.
 
 ## Strategic framing
 
@@ -52,8 +84,6 @@ Good memory design answers questions like:
 - How should uncertainty, source, and confidence be communicated?
 - How should memory behave across individuals, teams, and shared workspaces?
 
-The goal is to make these questions easier to answer with reusable design structures.
-
 ## Repository structure
 
 ```text
@@ -61,34 +91,26 @@ docs/
   vision.md
   taxonomy.md
   memory-design-principles.md
+  review-checklist.md
 
 templates/
-  README.md
+  template-schema.md
+  matrix-index.md
+  memory-capture/
+  memory-inspection/
+  memory-editing/
+  memory-correction/
+  memory-forgetting/
+  memory-scope-permissions/
+  provenance-confidence/
 
 examples/
-  README.md
+  scenario-map.md
 ```
-
-- `docs/` contains the conceptual foundation for the repository.
-- `templates/` will contain reusable template specifications for memory-related product flows.
-- `examples/` will contain practical scenarios that show how the templates can be applied.
-
-## Current phase
-
-Phase 1 establishes the foundation: repository structure, core documentation, contribution guidance, and licensing.
-
-Future phases should add the first template matrix, scenario examples, evaluation rubrics, and downloadable design artifacts.
 
 ## Design stance
 
-This repository favors:
-
-- Transparency over hidden automation
-- Correction over silent persistence
-- Consent over surprise
-- Progressive disclosure over information overload
-- Practical product patterns over abstract principles alone
-- Durable terminology that can be shared across design, product, research, and engineering teams
+This repository favors transparency over hidden automation, correction over silent persistence, consent over surprise, progressive disclosure over information overload, and practical product patterns over abstract principles alone.
 
 ## License
 
