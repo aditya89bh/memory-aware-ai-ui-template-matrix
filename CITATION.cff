@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: Memory-Aware AI UI Template Matrix
+message: If you use this repository in research, teaching, consulting, or product work, please cite it using this metadata.
+type: dataset
+authors:
+  - family-names: Bhatia
+    given-names: Aditya
+repository-code: https://github.com/aditya89bh/memory-aware-ai-ui-template-matrix
+version: 1.0.0
+license: MIT
+abstract: A design reference for inspectable, editable, correctable, and forgettable memory experiences in AI products.
+keywords:
+  - memory design
+  - user experience
+  - product design
+  - AI products
+  - design templates
