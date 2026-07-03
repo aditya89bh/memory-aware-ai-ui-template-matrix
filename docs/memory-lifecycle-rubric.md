@@ -22,3 +22,25 @@ Memory should be designed across its full lifecycle, not only at the moment of c
 - Does each memory type have a correction path?
 - Does each memory type have a forgetting path?
 - Does each memory type have a stale or expiry strategy?
+
+## Lifecycle maturity levels
+
+### Level 1: Hidden persistence
+
+Memory exists but users cannot reliably see or control it. This level is not appropriate for high-risk memory.
+
+### Level 2: Basic controls
+
+Users can view and delete some memory, usually in settings. Correction may be indirect.
+
+### Level 3: Contextual control
+
+Users can inspect, edit, correct, and forget memory at the moment it affects outcomes.
+
+### Level 4: Governed memory lifecycle
+
+Memory has ownership, review dates, source visibility, permissioning, expiry, and auditability where needed.
+
+## Recommended target
+
+Most production memory-aware products should reach Level 3 for user-facing memory and Level 4 for shared, sensitive, or safety-relevant memory.
