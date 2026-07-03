@@ -58,3 +58,31 @@ Productivity memory can become annoying when it turns a temporary behavior into 
 - Can temporary planning context expire?
 - Can the user override memory for one task without changing long-term preferences?
 - Are stale routines marked for review?
+
+## Team collaboration
+
+### Common memory objects
+
+- Team norms
+- Project decisions
+- Client constraints
+- Workspace standards
+- Personal collaboration preferences
+
+### User-facing risks
+
+Shared memory can make one person's preference feel like a team rule. It can also spread outdated project context across future work.
+
+### Useful templates
+
+- [Remember Across Workspace](../templates/memory-scope-permissions/remember-across-workspace.md)
+- [Source-Linked Memory Card](../templates/memory-inspection/source-linked-memory-card.md)
+- [Conflicting Memory Resolver](../templates/memory-correction/conflicting-memory-resolver.md)
+- [Remembered Facts Timeline](../templates/memory-inspection/remembered-facts-timeline.md)
+
+### Review questions
+
+- Who can create workspace memory?
+- Who owns review of shared memory?
+- Can personal and team memory be distinguished?
+- Does archived project memory stop influencing active work?
