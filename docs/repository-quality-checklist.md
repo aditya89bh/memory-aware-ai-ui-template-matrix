@@ -31,3 +31,10 @@ Use this checklist before publishing a release or accepting a major contribution
 - Canvases include fillable fields, review questions, example entries, decision output, and facilitator notes.
 - AI product pattern guides include context, memory objects, controls, risk, recommended templates, anti-patterns, and example moments.
 - Navigation links from README, templates, and examples point to the new assets.
+
+## v1.0.0 release readiness
+
+- Glossary, FAQ, research methods, usability plan, evaluation metrics, testing scenarios, and facilitation scripts are present.
+- Publication checklist, launch announcement draft, versioning guide, roadmap, and release checklist are present.
+- Conduct, security, citation, and support files are present.
+- Final quality audit and release readiness confirmation are present.
