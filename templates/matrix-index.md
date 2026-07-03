@@ -54,3 +54,12 @@ Use these examples when selecting template combinations for product work:
 - [Stakeholder Review Questions](../docs/stakeholder-review-questions.md)
 - [Pattern Combinations](../docs/pattern-combinations.md)
 - [Anti-Patterns](../docs/anti-patterns.md)
+
+## Selection support
+
+Before choosing a template, use:
+
+- [Template Selection Guide](../docs/template-selection-guide.md) to select patterns by user need, risk level, maturity, and scope.
+- [Memory Risk Rubric](../docs/memory-risk-rubric.md) to determine required controls.
+- [Pattern Combinations](../docs/pattern-combinations.md) to combine templates into full workflows.
+- [Memory Flow Audit Worksheet](../worksheets/memory-flow-audit.md) to map memory moments in a product journey.
