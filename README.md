@@ -49,3 +49,47 @@ This is a design repository, not a frontend component library.
 - [Robotics Operator Flow](examples/robotics-operator-flow.md)
 - [Research Assistant Flow](examples/research-assistant-flow.md)
 - [Creative Tool Flow](examples/creative-tool-flow.md)
+
+## Review tools
+
+- [Memory Risk Rubric](docs/memory-risk-rubric.md)
+- [Design Review Scorecard](docs/design-review-scorecard.md)
+- [Memory Lifecycle Rubric](docs/memory-lifecycle-rubric.md)
+- [Product Team Workshop Guide](docs/product-team-workshop-guide.md)
+- [Stakeholder Review Questions](docs/stakeholder-review-questions.md)
+- [Pattern Combinations](docs/pattern-combinations.md)
+- [Anti-Patterns](docs/anti-patterns.md)
+- [Design Critique Guide](docs/design-critique-guide.md)
+- [Team Workshop Agenda](docs/team-workshop-agenda.md)
+
+## Worksheets
+
+- [Memory Flow Audit](worksheets/memory-flow-audit.md)
+- [Memory Risk Assessment](worksheets/memory-risk-assessment.md)
+- [Template Selection Worksheet](worksheets/template-selection-worksheet.md)
+- [Stakeholder Review Worksheet](worksheets/stakeholder-review-worksheet.md)
+- [Memory Lifecycle Planning](worksheets/memory-lifecycle-planning.md)
+- [Memory Correction Planning](worksheets/memory-correction-planning.md)
+- [Forgetting Controls Audit](worksheets/forgetting-controls-audit.md)
+- [Provenance and Confidence Audit](worksheets/provenance-confidence-audit.md)
+
+## Adoption and contribution
+
+- [Adoption Playbook](docs/adoption-playbook.md)
+- [Contribution Roadmap](docs/contribution-roadmap.md)
+- [Repository Positioning](docs/repo-positioning.md)
+- [Release Notes v0.1](docs/release-notes-v0.1.md)
+- [Contributing](CONTRIBUTING.md)
+- [Changelog](CHANGELOG.md)
+
+## Who it is for
+
+This repository is designed for product designers, UX researchers, AI application builders, AI consultants, product managers, and researchers exploring human-centered AI memory.
+
+## Design stance
+
+This repository favors transparency over hidden automation, correction over silent persistence, consent over surprise, progressive disclosure over information overload, and practical product patterns over abstract principles alone.
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE) for details.
