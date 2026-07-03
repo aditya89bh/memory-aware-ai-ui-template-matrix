@@ -31,3 +31,39 @@ Run a 90-minute workshop for one product flow or a half-day workshop for a broad
 5. Identify edge cases and trust risks.
 6. Score the flow using the review scorecard.
 7. Assign follow-up design decisions.
+
+## Workshop exercises
+
+### Exercise 1: Memory inventory
+
+For each product moment, write down:
+
+- What the product might remember
+- Who benefits from that memory
+- Who could be harmed or confused by it
+- Whether the memory is explicit, inferred, imported, or corrected
+
+### Exercise 2: Control mapping
+
+For each memory object, map controls:
+
+- Inspect
+- Edit
+- Correct
+- Forget
+- Change scope
+- View source
+
+### Exercise 3: Failure walkthrough
+
+Pick three failures:
+
+- The memory is wrong.
+- The memory is stale.
+- The memory appears in the wrong scope.
+
+Design the user recovery path for each.
+
+## Workshop output
+
+The team should leave with a memory decision table, selected templates, unresolved policy questions, and a prioritized list of design changes.
