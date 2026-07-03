@@ -25,3 +25,26 @@ Use these questions when reviewing memory-aware features with cross-functional s
 - Do users trust correction receipts?
 - Can users predict where memory will apply?
 - What language do users naturally use for forgetting or correction?
+
+## Engineering and operations questions
+
+- What is the source of each memory object?
+- How are memory scope and permissions represented?
+- Can memory be edited without breaking source integrity?
+- What happens when source content is deleted?
+- How are stale and expired memories handled?
+
+## Privacy and governance questions
+
+- Which memories require explicit consent?
+- Which memories should never be stored?
+- Which memories need audit trails?
+- How does forgetting interact with retention policy?
+- Who can access shared memory?
+
+## Launch decision questions
+
+- What memory failures would block launch?
+- What minimum controls are required for this risk level?
+- What support process exists when users report wrong memory?
+- How will the team monitor memory-related trust issues after launch?
