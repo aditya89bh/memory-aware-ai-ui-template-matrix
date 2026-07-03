@@ -19,3 +19,27 @@ This rubric helps teams classify memory by the level of user trust, privacy, and
 - Is the memory inferred rather than directly confirmed?
 - Does the product use the memory to automate consequential actions?
 - Does the memory need to expire or be reviewed periodically?
+
+## Required controls by risk level
+
+| Control | Low | Medium | High | Critical |
+|---|---|---|---|---|
+| Inspect | Recommended | Required | Required | Required |
+| Edit | Required | Required | Required | Restricted but available |
+| Forget | Required | Required | Required | Policy-governed |
+| Source visibility | Optional | Required | Required | Required |
+| Explicit consent | Optional | Recommended | Required | Required |
+| Scope selector | Optional | Required | Required | Required |
+| Review date | Optional | Recommended | Required | Required |
+| Audit trail | Optional | Optional | Recommended | Required |
+
+## How to apply the rubric
+
+Use the highest applicable risk level. A memory about a simple preference becomes higher risk if it is shared across a workspace, inferred without confirmation, or used in consequential automation.
+
+## Review cadence
+
+- Low-risk memory can be reviewed on demand.
+- Medium-risk memory should be reviewed when it becomes stale or conflicts.
+- High-risk memory should have visible review dates and conservative defaults.
+- Critical memory should have ownership, auditability, and operational review.
