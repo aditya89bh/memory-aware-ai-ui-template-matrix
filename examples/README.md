@@ -34,3 +34,18 @@ Each example should include:
 ## Quality bar
 
 Examples should be realistic and decision-oriented. They should include failure modes such as wrong memory, stale memory, sensitive memory, unclear source, and conflicts across scopes.
+
+## Industry and worksheet support
+
+Use [Use Cases by Industry](../docs/use-cases-by-industry.md) to find relevant memory challenges for different product categories.
+
+Use worksheets to turn examples into review activities:
+
+- [Memory Flow Audit](../worksheets/memory-flow-audit.md)
+- [Memory Risk Assessment](../worksheets/memory-risk-assessment.md)
+- [Template Selection Worksheet](../worksheets/template-selection-worksheet.md)
+- [Stakeholder Review Worksheet](../worksheets/stakeholder-review-worksheet.md)
+- [Memory Lifecycle Planning](../worksheets/memory-lifecycle-planning.md)
+- [Memory Correction Planning](../worksheets/memory-correction-planning.md)
+- [Forgetting Controls Audit](../worksheets/forgetting-controls-audit.md)
+- [Provenance and Confidence Audit](../worksheets/provenance-confidence-audit.md)
