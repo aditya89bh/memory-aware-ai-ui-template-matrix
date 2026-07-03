@@ -25,3 +25,29 @@ Score each area from 0 to 3.
 | Provenance | Can users see where memory came from? | 0-3 |
 | Confidence | Are uncertain or stale memories marked? | 0-3 |
 | Accessibility | Are controls understandable and reachable for different users? | 0-3 |
+
+## Interpreting results
+
+- 24-30: Strong foundation. Run scenario testing and edge-case review.
+- 16-23: Promising but needs targeted improvements before launch.
+- 8-15: Memory controls are likely incomplete or hard to trust.
+- 0-7: The experience should not ship as memory-aware.
+
+## Review notes template
+
+For each weak area, capture:
+
+- What the user may misunderstand
+- Which memory template applies
+- What change would improve control or clarity
+- Whether the issue blocks launch
+
+## Common blockers
+
+A memory-aware flow should not ship if:
+
+- Users cannot tell memory is being used.
+- Users cannot correct wrong memory.
+- Sensitive memory is saved without explicit consent.
+- Shared memory has no owner or permission model.
+- Forgetting does not explain future behavior impact.
