@@ -114,3 +114,31 @@ Wrong support memory can create repeated frustration, privacy mistakes, or inacc
 - Are account facts source-linked?
 - Is sensitive case context scoped narrowly?
 - Does forgetting explain whether case history remains?
+
+## Education
+
+### Common memory objects
+
+- Learning preferences
+- Skill progress
+- Study goals
+- Accessibility needs
+- Confidence indicators for knowledge areas
+
+### User-facing risks
+
+Educational memory can label learners too rigidly. Stale skill assumptions can make lessons too easy, too hard, or discouraging.
+
+### Useful templates
+
+- [Profile-Level Memory Manager](../templates/memory-editing/profile-level-memory-manager.md)
+- [Confidence and Source Indicator](../templates/provenance-confidence/confidence-and-source-indicator.md)
+- [That's Wrong Correction Flow](../templates/memory-correction/thats-wrong-correction-flow.md)
+- [Memory Expiry Control](../templates/memory-forgetting/memory-expiry-control.md)
+
+### Review questions
+
+- Can learners inspect their learning profile?
+- Are skill memories marked by confidence and recency?
+- Can temporary study goals expire?
+- Are sensitive learning concerns handled with narrow scope?
