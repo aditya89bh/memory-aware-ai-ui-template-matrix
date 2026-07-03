@@ -66,3 +66,15 @@ Relevant templates:
 - [Profile-Level Memory Manager](../templates/memory-editing/profile-level-memory-manager.md)
 
 Design lesson: memory needs aging, review, and conflict handling.
+
+## Phase 3 applied flow map
+
+| Applied flow | Primary memory challenge | Most relevant review tool |
+|---|---|---|
+| [Productivity Assistant Flow](productivity-assistant-flow.md) | Personal preference control | [Design Review Scorecard](../docs/design-review-scorecard.md) |
+| [Team Collaboration Flow](team-collaboration-flow.md) | Shared memory boundaries | [Stakeholder Review Questions](../docs/stakeholder-review-questions.md) |
+| [Customer Support Flow](customer-support-flow.md) | Account memory correction | [Memory Risk Rubric](../docs/memory-risk-rubric.md) |
+| [Education Tutor Flow](education-tutor-flow.md) | Learning profile accuracy | [Memory Lifecycle Rubric](../docs/memory-lifecycle-rubric.md) |
+| [Robotics Operator Flow](robotics-operator-flow.md) | Safety-relevant context | [Memory Risk Rubric](../docs/memory-risk-rubric.md) |
+| [Research Assistant Flow](research-assistant-flow.md) | Evidence and uncertainty | [Pattern Combinations](../docs/pattern-combinations.md) |
+| [Creative Tool Flow](creative-tool-flow.md) | Temporary creative overrides | [Anti-Patterns](../docs/anti-patterns.md) |
