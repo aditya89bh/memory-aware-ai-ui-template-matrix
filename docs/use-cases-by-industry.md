@@ -170,3 +170,31 @@ Operational memory can affect safety and workflow reliability. Stale or incorrec
 - Does memory ever override current operator judgment or live system status?
 - Are temporary incident constraints expired?
 - Is correction auditable?
+
+## Research tools
+
+### Common memory objects
+
+- Project assumptions
+- Research questions
+- Evidence summaries
+- Participant-specific analysis context
+- Synthesis preferences
+
+### User-facing risks
+
+Research memory can blur evidence, interpretation, and hypothesis. Source and confidence must remain visible.
+
+### Useful templates
+
+- [Why Remembered This](../templates/provenance-confidence/why-remembered-this.md)
+- [Confidence and Source Indicator](../templates/provenance-confidence/confidence-and-source-indicator.md)
+- [Source-Linked Memory Card](../templates/memory-inspection/source-linked-memory-card.md)
+- [Remembered Facts Timeline](../templates/memory-inspection/remembered-facts-timeline.md)
+
+### Review questions
+
+- Are findings, assumptions, and hypotheses distinguished?
+- Can researchers trace memory to source material?
+- Can uncertain memory be downgraded or reviewed?
+- Is participant context scoped appropriately?
