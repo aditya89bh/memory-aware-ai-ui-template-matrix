@@ -30,3 +30,31 @@ Use this guide alongside:
 - Robotics operations
 - Research tools
 - Creative tools
+
+## Productivity tools
+
+### Common memory objects
+
+- Planning preferences
+- Summary style and detail level
+- Recurring task routines
+- Calendar constraints
+- Project-specific priorities
+
+### User-facing risks
+
+Productivity memory can become annoying when it turns a temporary behavior into a durable rule. It can also create planning errors when stale preferences continue shaping recommendations.
+
+### Useful templates
+
+- [Inferred Preference Confirmation](../templates/memory-capture/inferred-preference-confirmation.md)
+- [Memory Drawer](../templates/memory-inspection/memory-drawer.md)
+- [Temporary Session Override](../templates/memory-editing/temporary-session-override.md)
+- [Memory Expiry Control](../templates/memory-forgetting/memory-expiry-control.md)
+
+### Review questions
+
+- Can the user see which memories shaped a plan?
+- Can temporary planning context expire?
+- Can the user override memory for one task without changing long-term preferences?
+- Are stale routines marked for review?
