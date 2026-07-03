@@ -24,7 +24,7 @@ This is a **template matrix**, not a frontend component library. It focuses on p
 - [Review Checklist](docs/review-checklist.md)
 - [Scenario Map](examples/scenario-map.md)
 
-## Visual matrix
+## Template matrix
 
 | Memory design job | Template family | Primary trust question |
 |---|---|---|
@@ -36,35 +36,35 @@ This is a **template matrix**, not a frontend component library. It focuses on p
 | Control where memory applies | [Scope and Permissions](templates/memory-scope-permissions/README.md) | Are boundaries between chat, personal, project, and workspace memory clear? |
 | Understand memory origin | [Provenance and Confidence](templates/provenance-confidence/README.md) | Can the user judge where memory came from and how reliable it is? |
 
+## Applied examples
+
+- [Productivity Assistant Flow](examples/productivity-assistant-flow.md)
+- [Team Collaboration Flow](examples/team-collaboration-flow.md)
+- [Customer Support Flow](examples/customer-support-flow.md)
+- [Education Tutor Flow](examples/education-tutor-flow.md)
+- [Robotics Operator Flow](examples/robotics-operator-flow.md)
+- [Research Assistant Flow](examples/research-assistant-flow.md)
+- [Creative Tool Flow](examples/creative-tool-flow.md)
+
+## Review tools
+
+- [Memory Risk Rubric](docs/memory-risk-rubric.md)
+- [Design Review Scorecard](docs/design-review-scorecard.md)
+- [Memory Lifecycle Rubric](docs/memory-lifecycle-rubric.md)
+- [Product Team Workshop Guide](docs/product-team-workshop-guide.md)
+- [Stakeholder Review Questions](docs/stakeholder-review-questions.md)
+- [Pattern Combinations](docs/pattern-combinations.md)
+- [Anti-Patterns](docs/anti-patterns.md)
+
 ## Template families
 
 - [Memory Capture](templates/memory-capture/README.md)
-  - [Explicit Memory Save Prompt](templates/memory-capture/explicit-memory-save-prompt.md)
-  - [Inferred Preference Confirmation](templates/memory-capture/inferred-preference-confirmation.md)
-  - [Contextual Memory Boundary](templates/memory-capture/contextual-memory-boundary.md)
 - [Memory Inspection](templates/memory-inspection/README.md)
-  - [Memory Drawer](templates/memory-inspection/memory-drawer.md)
-  - [Remembered Facts Timeline](templates/memory-inspection/remembered-facts-timeline.md)
-  - [Source-Linked Memory Card](templates/memory-inspection/source-linked-memory-card.md)
 - [Memory Editing](templates/memory-editing/README.md)
-  - [Inline Memory Edit](templates/memory-editing/inline-memory-edit.md)
-  - [Profile-Level Memory Manager](templates/memory-editing/profile-level-memory-manager.md)
-  - [Temporary Session Override](templates/memory-editing/temporary-session-override.md)
 - [Memory Correction](templates/memory-correction/README.md)
-  - [That's Wrong Correction Flow](templates/memory-correction/thats-wrong-correction-flow.md)
-  - [Conflicting Memory Resolver](templates/memory-correction/conflicting-memory-resolver.md)
-  - [Correction Feedback Receipt](templates/memory-correction/correction-feedback-receipt.md)
 - [Memory Forgetting](templates/memory-forgetting/README.md)
-  - [Forget Single Memory](templates/memory-forgetting/forget-single-memory.md)
-  - [Forget by Category](templates/memory-forgetting/forget-by-category.md)
-  - [Memory Expiry Control](templates/memory-forgetting/memory-expiry-control.md)
 - [Scope and Permissions](templates/memory-scope-permissions/README.md)
-  - [Remember for This Chat Only](templates/memory-scope-permissions/remember-for-this-chat-only.md)
-  - [Remember Across Workspace](templates/memory-scope-permissions/remember-across-workspace.md)
-  - [Sensitive Memory Consent Gate](templates/memory-scope-permissions/sensitive-memory-consent-gate.md)
 - [Provenance and Confidence](templates/provenance-confidence/README.md)
-  - [Why Remembered This](templates/provenance-confidence/why-remembered-this.md)
-  - [Confidence and Source Indicator](templates/provenance-confidence/confidence-and-source-indicator.md)
 
 ## Who it is for
 
@@ -92,6 +92,13 @@ docs/
   taxonomy.md
   memory-design-principles.md
   review-checklist.md
+  memory-risk-rubric.md
+  design-review-scorecard.md
+  memory-lifecycle-rubric.md
+  product-team-workshop-guide.md
+  stakeholder-review-questions.md
+  pattern-combinations.md
+  anti-patterns.md
 
 templates/
   template-schema.md
@@ -106,6 +113,13 @@ templates/
 
 examples/
   scenario-map.md
+  productivity-assistant-flow.md
+  team-collaboration-flow.md
+  customer-support-flow.md
+  education-tutor-flow.md
+  robotics-operator-flow.md
+  research-assistant-flow.md
+  creative-tool-flow.md
 ```
 
 ## Design stance
