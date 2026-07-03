@@ -24,3 +24,21 @@ Use this guide with the [Template Matrix Index](../templates/matrix-index.md) an
 | "I want this to apply only here." | [Contextual Memory Boundary](../templates/memory-capture/contextual-memory-boundary.md), [Remember for This Chat Only](../templates/memory-scope-permissions/remember-for-this-chat-only.md) |
 | "I want the product to forget this." | [Forget Single Memory](../templates/memory-forgetting/forget-single-memory.md), [Forget by Category](../templates/memory-forgetting/forget-by-category.md) |
 | "I want to know why this exists." | [Why Remembered This](../templates/provenance-confidence/why-remembered-this.md), [Confidence and Source Indicator](../templates/provenance-confidence/confidence-and-source-indicator.md) |
+
+## Select by risk level
+
+### Low risk
+
+Use lightweight capture, inline editing, and single-memory forgetting. Avoid heavy approval flows unless the user is already in settings or review mode.
+
+### Medium risk
+
+Add source, scope, and correction receipts. Memory should be visible near outputs it affects.
+
+### High risk
+
+Require explicit consent, narrow scope, clear source, and easy forgetting. Prefer confirmation over inference.
+
+### Critical risk
+
+Use human review, ownership, auditability, expiry, and conservative reuse. Do not let memory silently automate consequential decisions.
