@@ -142,3 +142,31 @@ Educational memory can label learners too rigidly. Stale skill assumptions can m
 - Are skill memories marked by confidence and recency?
 - Can temporary study goals expire?
 - Are sensitive learning concerns handled with narrow scope?
+
+## Robotics operations
+
+### Common memory objects
+
+- Site constraints
+- Operator display preferences
+- Route restrictions
+- Incident context
+- Review dates for operating assumptions
+
+### User-facing risks
+
+Operational memory can affect safety and workflow reliability. Stale or incorrect constraints must be visible, source-linked, and reviewable.
+
+### Useful templates
+
+- [Contextual Memory Boundary](../templates/memory-capture/contextual-memory-boundary.md)
+- [Source-Linked Memory Card](../templates/memory-inspection/source-linked-memory-card.md)
+- [Remembered Facts Timeline](../templates/memory-inspection/remembered-facts-timeline.md)
+- [Correction Feedback Receipt](../templates/memory-correction/correction-feedback-receipt.md)
+
+### Review questions
+
+- Is safety-relevant memory reviewed before reuse?
+- Does memory ever override current operator judgment or live system status?
+- Are temporary incident constraints expired?
+- Is correction auditable?
