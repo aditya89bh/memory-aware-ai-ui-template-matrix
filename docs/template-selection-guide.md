@@ -13,3 +13,14 @@ Start with the user's trust problem, not the screen type. A settings page, drawe
 5. Review the full lifecycle before implementation.
 
 Use this guide with the [Template Matrix Index](../templates/matrix-index.md) and [Memory Risk Rubric](memory-risk-rubric.md).
+
+## Select by user need
+
+| User need | Recommended starting templates |
+|---|---|
+| "I want to approve what gets remembered." | [Explicit Memory Save Prompt](../templates/memory-capture/explicit-memory-save-prompt.md), [Inferred Preference Confirmation](../templates/memory-capture/inferred-preference-confirmation.md) |
+| "I want to see what shaped this output." | [Memory Drawer](../templates/memory-inspection/memory-drawer.md), [Source-Linked Memory Card](../templates/memory-inspection/source-linked-memory-card.md) |
+| "I want to fix something wrong." | [That's Wrong Correction Flow](../templates/memory-correction/thats-wrong-correction-flow.md), [Correction Feedback Receipt](../templates/memory-correction/correction-feedback-receipt.md) |
+| "I want this to apply only here." | [Contextual Memory Boundary](../templates/memory-capture/contextual-memory-boundary.md), [Remember for This Chat Only](../templates/memory-scope-permissions/remember-for-this-chat-only.md) |
+| "I want the product to forget this." | [Forget Single Memory](../templates/memory-forgetting/forget-single-memory.md), [Forget by Category](../templates/memory-forgetting/forget-by-category.md) |
+| "I want to know why this exists." | [Why Remembered This](../templates/provenance-confidence/why-remembered-this.md), [Confidence and Source Indicator](../templates/provenance-confidence/confidence-and-source-indicator.md) |
