@@ -42,3 +42,21 @@ Require explicit consent, narrow scope, clear source, and easy forgetting. Prefe
 ### Critical risk
 
 Use human review, ownership, auditability, expiry, and conservative reuse. Do not let memory silently automate consequential decisions.
+
+## Select by product maturity
+
+### Prototype
+
+Start with memory capture prompts, a simple inspection surface, and manual correction notes. Validate language before building complex settings.
+
+### Beta
+
+Add source-linked cards, editing, single-memory forgetting, and a review checklist. Test whether users understand scope.
+
+### Production
+
+Add lifecycle states, stale memory review, category deletion, permissioning, and feedback receipts.
+
+### Enterprise or regulated environment
+
+Add workspace ownership, audit trails, retention constraints, permission reviews, and documented risk classification.
