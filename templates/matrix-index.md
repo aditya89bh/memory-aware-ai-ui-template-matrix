@@ -32,3 +32,25 @@ Start with the user question, not the interface. For example:
 ## Matrix principle
 
 No single template creates a trustworthy memory experience. A strong product usually combines capture, inspection, correction, forgetting, and provenance patterns into a coherent lifecycle.
+
+## Applied workflow references
+
+Use these examples when selecting template combinations for product work:
+
+- [Productivity Assistant Flow](../examples/productivity-assistant-flow.md) shows personal planning preferences, correction, and forgetting.
+- [Team Collaboration Flow](../examples/team-collaboration-flow.md) shows shared memory, permissions, and conflict resolution.
+- [Customer Support Flow](../examples/customer-support-flow.md) shows account memory, source visibility, and expiry.
+- [Education Tutor Flow](../examples/education-tutor-flow.md) shows learning preferences, skill confidence, and temporary goals.
+- [Robotics Operator Flow](../examples/robotics-operator-flow.md) shows site-scoped operational memory and auditability.
+- [Research Assistant Flow](../examples/research-assistant-flow.md) shows evidence, assumptions, and confidence.
+- [Creative Tool Flow](../examples/creative-tool-flow.md) shows brand memory, project constraints, and temporary overrides.
+
+## Review tools
+
+- [Memory Risk Rubric](../docs/memory-risk-rubric.md)
+- [Design Review Scorecard](../docs/design-review-scorecard.md)
+- [Memory Lifecycle Rubric](../docs/memory-lifecycle-rubric.md)
+- [Product Team Workshop Guide](../docs/product-team-workshop-guide.md)
+- [Stakeholder Review Questions](../docs/stakeholder-review-questions.md)
+- [Pattern Combinations](../docs/pattern-combinations.md)
+- [Anti-Patterns](../docs/anti-patterns.md)
