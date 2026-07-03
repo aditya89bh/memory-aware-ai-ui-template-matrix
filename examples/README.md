@@ -49,3 +49,12 @@ Use worksheets to turn examples into review activities:
 - [Memory Correction Planning](../worksheets/memory-correction-planning.md)
 - [Forgetting Controls Audit](../worksheets/forgetting-controls-audit.md)
 - [Provenance and Confidence Audit](../worksheets/provenance-confidence-audit.md)
+
+## Presentation and workshop assets
+
+Pair examples with:
+
+- [Visual Frameworks](../docs/visual-frameworks/README.md)
+- [Canvases](../canvases/README.md)
+- [AI Product Memory Pattern Guides](../docs/ai-product-patterns/README.md)
+- [Figma-Ready Specs](../docs/figma-ready-specs.md)

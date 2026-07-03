@@ -24,3 +24,10 @@ Use this checklist before publishing a release or accepting a major contribution
 - No co-author trailers are present.
 - New docs add practical value rather than repeating existing guidance.
 - Public-facing docs explain the repository quickly.
+
+## Phase 5 asset quality
+
+- Visual frameworks include purpose, use case, diagram, application guidance, and common mistakes.
+- Canvases include fillable fields, review questions, example entries, decision output, and facilitator notes.
+- AI product pattern guides include context, memory objects, controls, risk, recommended templates, anti-patterns, and example moments.
+- Navigation links from README, templates, and examples point to the new assets.

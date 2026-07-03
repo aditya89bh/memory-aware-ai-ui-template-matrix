@@ -4,11 +4,11 @@ A design reference for creating inspectable, editable, correctable, and forgetta
 
 ## Understand this repository in under 60 seconds
 
-Modern AI products remember preferences, projects, decisions, behavior, and context. If that memory is hidden, users cannot understand, correct, or forget what shapes their experience.
+AI products increasingly remember preferences, projects, decisions, behavior, and context. If memory is hidden, users cannot understand, correct, or forget what shapes their experience.
 
-This repository treats memory as a first-class design material. It gives teams templates, examples, rubrics, worksheets, and review tools for designing memory that is transparent, controllable, and trustworthy.
+This repository treats memory as a first-class design material. It gives teams templates, examples, rubrics, worksheets, canvases, visual frameworks, and pattern guides for designing memory that is transparent, controllable, and trustworthy.
 
-This is a design repository, not a frontend component library.
+This is a design and UX strategy repository, not a frontend component library.
 
 ## Quick start
 
@@ -17,16 +17,18 @@ This is a design repository, not a frontend component library.
 3. Audit it with the [Memory Flow Audit Worksheet](worksheets/memory-flow-audit.md).
 4. Classify risk with the [Memory Risk Rubric](docs/memory-risk-rubric.md).
 5. Choose templates with the [Template Selection Guide](docs/template-selection-guide.md).
-6. Score the design with the [Design Review Scorecard](docs/design-review-scorecard.md).
+6. Use a [Canvas](canvases/README.md) or [Visual Framework](docs/visual-frameworks/README.md) to align the team.
+7. Score the design with the [Design Review Scorecard](docs/design-review-scorecard.md).
 
-## Start here
+## Core navigation
 
-- [Vision](docs/vision.md)
-- [Taxonomy](docs/taxonomy.md)
-- [Memory Design Principles](docs/memory-design-principles.md)
 - [Template Matrix Index](templates/matrix-index.md)
-- [Template Selection Guide](docs/template-selection-guide.md)
-- [Use Cases by Industry](docs/use-cases-by-industry.md)
+- [Applied Examples](examples/README.md)
+- [Worksheets](worksheets/README.md)
+- [Canvases](canvases/README.md)
+- [Visual Frameworks](docs/visual-frameworks/README.md)
+- [AI Product Memory Pattern Guides](docs/ai-product-patterns/README.md)
+- [Figma-Ready Specs](docs/figma-ready-specs.md)
 
 ## Template matrix
 
@@ -40,18 +42,9 @@ This is a design repository, not a frontend component library.
 | Control where memory applies | [Scope and Permissions](templates/memory-scope-permissions/README.md) | Are boundaries between chat, personal, project, and workspace memory clear? |
 | Understand memory origin | [Provenance and Confidence](templates/provenance-confidence/README.md) | Can the user judge where memory came from and how reliable it is? |
 
-## Applied examples
+## Review and adoption tools
 
-- [Productivity Assistant Flow](examples/productivity-assistant-flow.md)
-- [Team Collaboration Flow](examples/team-collaboration-flow.md)
-- [Customer Support Flow](examples/customer-support-flow.md)
-- [Education Tutor Flow](examples/education-tutor-flow.md)
-- [Robotics Operator Flow](examples/robotics-operator-flow.md)
-- [Research Assistant Flow](examples/research-assistant-flow.md)
-- [Creative Tool Flow](examples/creative-tool-flow.md)
-
-## Review tools
-
+- [Use Cases by Industry](docs/use-cases-by-industry.md)
 - [Memory Risk Rubric](docs/memory-risk-rubric.md)
 - [Design Review Scorecard](docs/design-review-scorecard.md)
 - [Memory Lifecycle Rubric](docs/memory-lifecycle-rubric.md)
@@ -62,33 +55,16 @@ This is a design repository, not a frontend component library.
 - [Design Critique Guide](docs/design-critique-guide.md)
 - [Team Workshop Agenda](docs/team-workshop-agenda.md)
 
-## Worksheets
+## Project guidance
 
-- [Memory Flow Audit](worksheets/memory-flow-audit.md)
-- [Memory Risk Assessment](worksheets/memory-risk-assessment.md)
-- [Template Selection Worksheet](worksheets/template-selection-worksheet.md)
-- [Stakeholder Review Worksheet](worksheets/stakeholder-review-worksheet.md)
-- [Memory Lifecycle Planning](worksheets/memory-lifecycle-planning.md)
-- [Memory Correction Planning](worksheets/memory-correction-planning.md)
-- [Forgetting Controls Audit](worksheets/forgetting-controls-audit.md)
-- [Provenance and Confidence Audit](worksheets/provenance-confidence-audit.md)
-
-## Adoption and contribution
-
+- [Vision](docs/vision.md)
+- [Taxonomy](docs/taxonomy.md)
+- [Memory Design Principles](docs/memory-design-principles.md)
+- [Repository Positioning](docs/repo-positioning.md)
 - [Adoption Playbook](docs/adoption-playbook.md)
 - [Contribution Roadmap](docs/contribution-roadmap.md)
-- [Repository Positioning](docs/repo-positioning.md)
-- [Release Notes v0.1](docs/release-notes-v0.1.md)
 - [Contributing](CONTRIBUTING.md)
 - [Changelog](CHANGELOG.md)
-
-## Who it is for
-
-This repository is designed for product designers, UX researchers, AI application builders, AI consultants, product managers, and researchers exploring human-centered AI memory.
-
-## Design stance
-
-This repository favors transparency over hidden automation, correction over silent persistence, consent over surprise, progressive disclosure over information overload, and practical product patterns over abstract principles alone.
 
 ## License
 

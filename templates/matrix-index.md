@@ -63,3 +63,12 @@ Before choosing a template, use:
 - [Memory Risk Rubric](../docs/memory-risk-rubric.md) to determine required controls.
 - [Pattern Combinations](../docs/pattern-combinations.md) to combine templates into full workflows.
 - [Memory Flow Audit Worksheet](../worksheets/memory-flow-audit.md) to map memory moments in a product journey.
+
+## Visual and canvas support
+
+Use these Phase 5 artifacts when teaching or presenting the matrix:
+
+- [Visual Frameworks](../docs/visual-frameworks/README.md)
+- [Canvases](../canvases/README.md)
+- [AI Product Memory Pattern Guides](../docs/ai-product-patterns/README.md)
+- [Figma-Ready Specs](../docs/figma-ready-specs.md)
