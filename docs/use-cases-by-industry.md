@@ -198,3 +198,31 @@ Research memory can blur evidence, interpretation, and hypothesis. Source and co
 - Can researchers trace memory to source material?
 - Can uncertain memory be downgraded or reviewed?
 - Is participant context scoped appropriately?
+
+## Creative tools
+
+### Common memory objects
+
+- Brand voice
+- Visual constraints
+- Campaign direction
+- Personal creative preferences
+- Temporary experiments
+
+### User-facing risks
+
+Creative memory can make a tool feel repetitive or restrictive. Users need to experiment without overwriting durable brand or project memory.
+
+### Useful templates
+
+- [Remember Across Workspace](../templates/memory-scope-permissions/remember-across-workspace.md)
+- [Temporary Session Override](../templates/memory-editing/temporary-session-override.md)
+- [Memory Drawer](../templates/memory-inspection/memory-drawer.md)
+- [Memory Expiry Control](../templates/memory-forgetting/memory-expiry-control.md)
+
+### Review questions
+
+- Can users distinguish brand, project, personal, and temporary memory?
+- Can experiments stay temporary?
+- Can project constraints be archived after delivery?
+- Does memory support creativity without narrowing options too early?
